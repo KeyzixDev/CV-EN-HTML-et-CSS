@@ -1,0 +1,20 @@
+footer {
+    background-color: #782221;
+}
+
+footer figure img {
+    width: 50px;
+    height: 50px;
+}
+
+footer figure {
+    padding: 10px 25px 12px 436px;
+}
+
+footer figure img:hover {
+    opacity: 0.8;
+}
+
+footer small {
+    padding: 28px 34px 28px 431px;
+}

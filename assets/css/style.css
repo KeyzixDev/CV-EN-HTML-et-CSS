@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+*, html, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    font-family: 'Lato', 'sans-serif';
+    background-color: #782221;
+    width: 1160px;
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.information-dev figure img{
+    width: 200px;
+}
+
+.information-dev figure, figure img {
+    border-radius: 50%;
+}
+
+.information-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pp {
+    cursor: zoom-in;
+}

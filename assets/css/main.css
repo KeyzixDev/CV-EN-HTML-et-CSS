@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+nav address {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #2c1d27;
+    padding: 25px;
+}
+
+a {
+    color: white;
+    font-family: 'Lato', 'sans-serif';
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: #2c1d27;
+}
+
+.menu address ul li {
+    list-style: none;
+}
+
+main {
+    background-color: #782221;
+    width: 1160px;
+}
+
+h3 {
+    background-color: #dbc2a4;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 433px 20px 455px;
+    margin: 11px 10px 40px 14px;
+
+    background-color: white;
+}
+
+.infos {
+    background-color: #782221;
+    padding: 61px 34px 438px 25px;
+    margin: -1020px 796px 310px 12px;
+}
+
+.infos p {
+    padding: 30px 11px 7px 3px;
+    margin: 6px 79px 50px 12px;
+    color: white;
+    text-indent: 4%;
+}
+
+.infos .a-propos {
+    padding: 12px 13px 12px 27px;
+    margin: -40px 34px 3px -13px;
+}
+.infos .lang {
+    padding: 13px 25px 14px 23px;
+    margin: 25px 26px 12px -15px;
+}
+
+.li {
+    color: white;
+    padding: 9px 20px 23px 16px;
+}
+
+.pros1:hover {
+    padding: 8px 534px 10px 25px;
+    margin: -24px -39px 9px -3px; 
+    border-right: 3px solid #782221;
+}
+
+.entreprise {
+    padding: 6px 7px 19px 2px;
+    margin: 2px 3px 5px 0px;
+}
+
+.text ul {
+    padding: 10px 1px 24px 20px;
+    margin: 9px 0px 1px -1px;
+}
+
+.forma:hover {
+    padding: 4px 432px 9px 66px;
+    border-right: 3px solid #782221;
+}
+
+.Compétence:hover {
+    padding: 6px 537px 7px 33px;
+    margin: 13px 9px 10px -10px;
+    border-right: 3px solid #782221;
+}
